@@ -1,16 +1,20 @@
-const raining = true;
-const temp = -14;
+var row =0;
+var seat = 0;
 
-if (raining){
-  console.log("Don't forget your umbrealla!");
+for (row = 0; row <= 25; row++){
+    for (seat = 0; seat <= 99; seat++){
+      console.log(row+ "-" +seat);
+    }
 }
 
-if (temp < 0) {
-  console.log("Make sure you pick out a scarf!");
-} else if (temp < 15){
-  console.log("Short sleeves wont cut it");
-} else {
-  console.log("Short sleeves are fine.")
-}
 
-console.log("Now you're ready to go outside");
+
+
+var row = 0; 
+var seat = 0; 
+
+for (row = 0; row <= 25; row++){
+    for(seat = 0; seat <= 99; seat++){
+        console.log(row+"-"+seat);
+    }
+}
